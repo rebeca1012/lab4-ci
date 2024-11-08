@@ -18,7 +18,12 @@ jobs:
           python -m pip install --upgrade pipenv wheel
       - name: Install dependencies
         run: |
-          pipenv install --dev
+          pipenv install --deploy --dev
+      - name: Update pipfile
+        run: |
+          pipenv install --dev     
       - name: Run test suite
         run: |
           pipenv run pytest
+
+
