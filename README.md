@@ -1,5 +1,4 @@
-#
-Recitación 7: Análisis Estático e Integración Continua
+# Laboratorio: Análisis Estático e Integración Continua
 
 Las herramientas de análisis estático y dinámico te ayudan a mantener el código saludable. En esta recitación, aprenderemos cómo configurar estas herramientas en CI (GitHub Actions).
 
