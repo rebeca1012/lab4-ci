@@ -16,7 +16,7 @@ jobs:
       - name: Install pipenv
         run: |
           python -m pip install --upgrade pipenv wheel
-        - name: Update pipfile
+      - name: Update pipfile
         run: |
           pipenv lock  
       - name: Install dependencies
