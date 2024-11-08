@@ -4,7 +4,7 @@ Las herramientas de análisis estático y dinámico te ayudan a mantener el cód
 
 # Paso 1: Configura tu repositorio de ejemplo en Python
 
-Primero, ve a este [repositorio de plantilla](https://github.com/CMU-313/fall-2022-recitation-8-analysis-ci) y úsalo para crear tu propio repositorio.
+Primero, usa este repositorio de plantilla y úsalo para crear tu propio repositorio.
 
 Ya deberías saber que es un gran error hacer push directamente en la rama `main`. Podemos, de hecho, imponer esta restricción usando [reglas de protección de ramas](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule). Lee la documentación para entender en qué consisten, y establece las siguientes reglas:
 
